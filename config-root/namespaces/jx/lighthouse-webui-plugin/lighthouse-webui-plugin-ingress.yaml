@@ -19,7 +19,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-  - host: lighthouse-jx.example.com
+  - host: lighthouse-jx.ingress.local
     http:
       paths:
       - pathType: ImplementationSpecific

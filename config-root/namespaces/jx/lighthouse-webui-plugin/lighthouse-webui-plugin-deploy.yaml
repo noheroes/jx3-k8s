@@ -45,7 +45,7 @@ spec:
         - -keeper-sync-interval
         - 60s
         - -event-trace-url-template
-        - http://grafana-jx-observability.example.com/explore?left=%5B%22now%22,%22now%22,%22Tempo%22,%7B%22query%22:%22{{.TraceID}}%22%7D%5D
+        - http://grafana-jx-observability.ingress.local/explore?left=%5B%22now%22,%22now%22,%22Tempo%22,%7B%22query%22:%22{{.TraceID}}%22%7D%5D
         - -log-level
         - INFO
         - -store-data-path

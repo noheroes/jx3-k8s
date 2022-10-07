@@ -19,4 +19,4 @@ spec:
             name: bucketrepo
             port:
               number: 80
-    host: bucketrepo-jx.example.com
+    host: bucketrepo-jx.ingress.local

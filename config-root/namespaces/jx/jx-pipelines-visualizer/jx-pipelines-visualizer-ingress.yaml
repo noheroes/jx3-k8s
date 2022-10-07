@@ -19,7 +19,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-  - host: dashboard-jx.example.com
+  - host: dashboard-jx.ingress.local
     http:
       paths:
       - pathType: ImplementationSpecific

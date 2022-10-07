@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - noheroes/jx3-k8s
-      target_url: http://lighthouse-jx.example.com/merge/status
+      target_url: http://lighthouse-jx.ingress.local/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
