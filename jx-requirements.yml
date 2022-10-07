@@ -22,7 +22,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: example.com
+    domain: ingress.local
     kind: ingress
     namespaceSubDomain: -jx.
     tls:
