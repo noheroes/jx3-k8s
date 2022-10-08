@@ -21,6 +21,7 @@ spec:
     repository: jx3-k8s
   - key: staging
   - key: production
+  kaniko: true
   ingress:
     domain: ingress.local
     kind: ingress
