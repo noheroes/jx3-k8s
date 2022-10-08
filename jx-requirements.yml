@@ -31,7 +31,7 @@ spec:
       enabled: false
       production: false
   pipelineUser:
-    username: operator #noheroes
+    username: noheroes
   repository: nexus
   secretStorage: local
   vault: {}
