@@ -11,13 +11,13 @@ metadata:
   namespace: jx
 spec:
   description: "the git repository for the Dev environment"
-  provider: "https://github.com"
-  providerKind: 'github'
-  providerName: 'github'
+  provider: "https://bitbucket.weird-logic.com"
+  providerKind: 'bitbucketserver'
+  providerName: 'bitbuket'
   org: "noheroes"
   repo: "jx3-k8s"
-  httpCloneURL: "https://github.com/noheroes/jx3-k8s.git"
-  url: "https://github.com/noheroes/jx3-k8s.git"
+  httpCloneURL: "https://bitbucket.weird-logic.com/noheroes/jx3-k8s.git"
+  url: "https://bitbucket.weird-logic.com/noheroes/jx3-k8s.git"
   scheduler:
     kind: Scheduler
     name: "in-repo"

@@ -27,7 +27,7 @@ spec:
           - command:
             - /bin/sh
             - -c
-            - jx gitops git setup --namespace jx --secret tekton-git --git-provider https://github.com && jx preview gc
+            - jx gitops git setup --namespace jx --secret tekton-git --git-provider https://bitbucket.weird-logic.com && jx preview gc
             env:
             - name: XDG_CONFIG_HOME
               value: /home

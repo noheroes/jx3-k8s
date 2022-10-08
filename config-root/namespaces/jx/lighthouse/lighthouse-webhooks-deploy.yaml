@@ -25,7 +25,7 @@ spec:
       annotations:
         prometheus.io/port: "2112"
         prometheus.io/scrape: "true"
-        jenkins-x.io/hash: 'a71c3beb97a1b061a65a794366dcb6024ad9d4170f838fbd0c52d9a38a005943'
+        jenkins-x.io/hash: 'ceb0802ac871c5088123f1665661a88f0922a585ff08f426b39916da3342f30b'
     spec:
       serviceAccountName: lighthouse-webhooks
       containers:
@@ -36,11 +36,11 @@ spec:
         - "--namespace=jx"
         env:
         - name: "GIT_KIND"
-          value: "github"
+          value: "bitbucketserver"
         - name: "LH_CUSTOM_TRIGGER_COMMAND"
           value: "jx"
         - name: "GIT_SERVER"
-          value: "https://github.com"
+          value: "https://bitbucket.weird-logic.com"
         - name: "GIT_USER"
           value: noheroes
         - name: "GIT_TOKEN"
@@ -72,6 +72,8 @@ spec:
           value: "2h0m0s"
         - name: FILE_BROWSER
           value: "git"
+        - name: GIT_CLONE_PATH_PREFIX
+          value: "scm"
         - name: JX_DEFAULT_IMAGE
           value: "ghcr.io/jenkins-x/builder-maven:2.1.149-768"
         - name: LIGHTHOUSE_DASHBOARD_TEMPLATE

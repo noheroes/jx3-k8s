@@ -13,7 +13,7 @@ metadata:
 spec:
   source:
     ref: "master"
-    url: https://github.com/noheroes/jx3-k8s.git
+    url: https://bitbucket.weird-logic.com/scm/noheroes/jx3-k8s.git
   kind: Development
   label: Development
   namespace: jx
@@ -26,7 +26,7 @@ spec:
       kind: Scheduler
       name: jx-meta-pipeline
     dockerRegistryOrg: ""
-    envOrganisation: todo
+    envOrganisation: mlops
     gitServer: https://github.com
     kubeProvider: "kubernetes"
     pipelineUsername: "noheroes"

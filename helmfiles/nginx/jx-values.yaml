@@ -25,10 +25,10 @@ jxRequirements:
     clusterName: kind
     devEnvApprovers:
     - todo
-    environmentGitOwner: todo
-    gitKind: github
-    gitName: github
-    gitServer: https://github.com
+    environmentGitOwner: mlops
+    gitKind: bitbucketserver
+    gitName: bitbuket
+    gitServer: https://bitbucket.weird-logic.com
     provider: kubernetes
     registry: ghcr.io
   environments:
